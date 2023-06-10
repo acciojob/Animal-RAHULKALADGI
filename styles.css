@@ -1,1 +1,27 @@
 /*  your css code here. If applicable */
+body {
+	background-color : rgb(20,20,20);
+	color : white;
+}
+h1 {
+	text-align : center;
+}
+#animal-photos {
+	background-color : rgb(68,68,68);
+	width : 80vw;
+	height : 100vh;
+	margin : 0% auto;
+}
+img {
+	width : 32%;
+	height : 32%;
+	border-radius : 20px;
+}
+.img {
+	display : flex;
+	flex-flow : wrap;
+	margin : 10px;
+	justify-content : space-between;
+	gap : 10px;
+	height : 90%
+}
